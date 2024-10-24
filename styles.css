@@ -1,0 +1,56 @@
+body {
+    background-color: lightskyblue;
+    display: grid;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-bottom: 10%;
+    margin-top: 100px;
+}
+
+#player {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+#player h2{
+    justify-self: center;
+}
+#player button {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#rock {
+    background-color: gray;
+}
+#paper {
+    background-color: white;
+}
+#scissors {
+    background-color: limegreen;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#computer {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}

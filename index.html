@@ -9,8 +9,33 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>Hola</p>
-    
+    <div id="game">
+        <div id="player">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <h2>You chose: <span id="player-choice"></span></h2>
+        </div>
+        <div id="results">
+            <p id="result-textbox"></p>
+        </div>
+        <div id="computer">
+            <h1 id="computer-thoughts">Computer</h1>
+            <br>
+            <p></p>
+        </div>
+    </div>
+
+    <div id="stats">
+        <h2>Your wins</h2>
+        <p id="player-wins"></p> <br> <br>
+        
+        <h2>Computer wins</h2>
+        <p id="computer-wins"></p> <br> <br>
+
+        <h2>Ties</h2>
+        <p id="ties"></p>
+    </div>
 
     <script src="script.js"></script>
 </body>
